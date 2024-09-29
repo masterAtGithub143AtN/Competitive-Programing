@@ -1,7 +1,11 @@
-#include<bits/stdc++.h>
 
-struct Node
+#include <iostream>
+#include <vector>
+#include <string>
+
+class Node
 {
+    public:
     Node *links[26];
     bool isEnd=false;
     bool Contains(char c){
@@ -63,3 +67,5 @@ class Trie{
 
 
 };
+
+
